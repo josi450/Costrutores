@@ -9,7 +9,7 @@ public class TestaAluno {
         data. ano = 1999;
         aluno1.dataDeNascimento = data;
         
-        String dados = aluno1.getImprimir ();
+        String dados = aluno1.imprimir ();
         System.out.println (dados);
     } 
     
