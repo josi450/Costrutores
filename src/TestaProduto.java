@@ -8,12 +8,12 @@ public class TestaProduto {
         
         System.out.println("Produto vendido: " +produto1.nome);
         
-        double valorCalculado = produto1.diminuir10(produto1.preco);
+        double valorCalculado = produto1.setDiminuir10(produto1.preco);
         
         System.out.println("Valor com desconto: "+valorCalculado);
         
         
-        double valorCalculado1=produto1.aumenta25(produto1.preco);
+        double valorCalculado1=produto1.setAumenta25(produto1.preco);
         
         System.out.println("Valor com acréscimo: "+valorCalculado1);
         

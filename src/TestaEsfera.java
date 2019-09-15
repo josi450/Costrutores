@@ -3,7 +3,7 @@ public class TestaEsfera {
         Esfera esf1 = new Esfera ();
         esf1.raio=1.57;
         
-        double calculoVolume= esf1.volume(esf1.raio);
+        double calculoVolume= esf1.setVolume(esf1.raio);
         
         System.out.println ("Volume da esfera:"+calculoVolume);
     }

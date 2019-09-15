@@ -8,11 +8,10 @@ public class TestaPessoa {
        
         System.out.println("Idade anterior: " +pessoa1.idade);
         
-        pessoa1.fazAniversario();
-        pessoa1.fazAniversario();
-        pessoa1.fazAniversario();
-        pessoa1.fazAniversario();
-        pessoa1.fazAniversario();
+        pessoa1.getFazAniversario();
+        pessoa1.getFazAniversario();
+         pessoa1.getFazAniversario();
+          pessoa1.getFazAniversario();
         
         System.out.println("Idade atual: " +pessoa1.idade);
         

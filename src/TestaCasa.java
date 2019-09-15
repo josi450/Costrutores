@@ -5,8 +5,8 @@ public class TestaCasa {
         casa1.porta2 = true;
         casa1.porta3 = true;   
         
-        casa1.pinta("Rosa");
-        System.out.println("A quantidade de portas abertas é: " + casa1.quantasPortasEstaoAbertas());        
+        casa1.setPinta("Rosa");
+        System.out.println("A quantidade de portas abertas é: " + casa1.setQuantasPortasEstaoAbertas());        
     }
     
 }
