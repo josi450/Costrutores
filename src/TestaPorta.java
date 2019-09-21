@@ -2,21 +2,13 @@ public class TestaPorta {
 
 public static void main(String[] args){
 
-	Porta porta = new Porta();
+	Porta porta = new Porta(false,"Marrom",80,75,100);
 	porta.abre();
 	porta.fecha();
 	
-	porta.cor = "Rosa";
-	porta.cor = "Azul";
-	porta.cor = "Verde";
-	porta.cor = "Amarelo";
-        porta.cor = "Marrom";
 	
-	porta.dimensaoX = 80;
-	porta.dimensaoY = 75;
-	porta.dimensaoZ = 100;
 	
 	System.out.println("A porta está aberta? " + porta.estaAberta());
-	System.out.println("Cor da porta:"+porta.cor);
+	System.out.println("Cor da porta:"+porta.getCor());
 }
 }

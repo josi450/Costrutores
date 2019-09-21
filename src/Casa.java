@@ -1,8 +1,56 @@
 public class Casa {
  
-    String cor;
-    Boolean porta1, porta2, porta3;
-    int total;
+    private String cor;
+    private Boolean porta1, porta2, porta3;
+    private int total;
+    // Construtor
+    public Casa(String c, Boolean p1, Boolean p2, Boolean p3, int t) {
+        this.cor = c;
+        this.porta1 = p1;
+        this.porta2 = p2;
+        this.porta3 = p3;
+        this.total = t;
+    }
+    
+    public String getCor() {
+        return this.cor;
+    }
+
+    public Boolean getPorta1() {
+        return this.porta1;
+    }
+
+    public Boolean getPorta2() {
+        return this.porta2;
+    }
+
+    public Boolean getPorta3() {
+        return this.porta3;
+    }
+
+    public int getTotal() {
+        return this.total;
+    }
+
+    public void setCor(String c) {
+        this.cor = c;
+    }
+
+    public void setPorta1(Boolean p1) {
+        this.porta1 = p1;
+    }
+
+    public void setPorta2(Boolean p2) {
+        this.porta2 = p2;
+    }
+
+    public void setPorta3(Boolean p3) {
+        this.porta3 = p3;
+    }
+
+    public void setTotal(int t) {
+        this.total = t;
+    }
     
     void pinta(String s) {        
         cor = s;
